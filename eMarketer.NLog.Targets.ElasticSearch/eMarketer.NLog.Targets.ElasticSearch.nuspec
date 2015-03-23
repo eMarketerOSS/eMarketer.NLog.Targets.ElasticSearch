@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>eMarketer.NLog.Targets.ElasticSearch</id>
-    <version>1.0</version>
+    <version>$version$</version>
     <title>eMarketer.NLog.Targets.ElasticSearch</title>
     <description>NLog target for ElasticSearch</description>
     <authors>eMarketer,rhoffman</authors>
