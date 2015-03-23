@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>eMarketer.NLog.Targets.ElasticSearch</id>
+    <version>1.0</version>
+    <title>eMarketer.NLog.Targets.ElasticSearch</title>
+    <description>NLog target for ElasticSearch</description>
+    <authors>eMarketer,rhoffman</authors>
+    <owners>eMarketer,rhoffman</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2015</copyright>
+    <tags>nlog elasticsearch target</tags>
+    <dependencies>
+      <group>
+        <dependency id="NLog" />
+        <dependency id="Newtonsoft.Json" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

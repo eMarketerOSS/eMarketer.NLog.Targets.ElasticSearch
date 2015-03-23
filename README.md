@@ -1,0 +1,2 @@
+eMarketer.NLog.Targets.ElasticSearch
+====================================
