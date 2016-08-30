@@ -12,8 +12,8 @@
     <tags>nlog elasticsearch target</tags>
     <dependencies>
       <group>
-        <dependency id="NLog" />
-        <dependency id="Newtonsoft.Json" />
+        <dependency id="NLog" version="4.3.7"/>
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
       </group>
     </dependencies>
   </metadata>
