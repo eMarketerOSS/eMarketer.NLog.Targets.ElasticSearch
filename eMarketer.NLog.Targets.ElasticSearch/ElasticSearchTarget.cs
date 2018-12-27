@@ -9,7 +9,7 @@ using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
 
-namespace eMarketer.NLog.Targets.ElasticSearch_New
+namespace eMarketer.NLog.Targets.ElasticSearch
 {
     [Target("ElasticSearch")]
     public sealed class ElasticSearchTarget : Target
