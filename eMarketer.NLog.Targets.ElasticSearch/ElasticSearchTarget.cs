@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
 using Newtonsoft.Json;
@@ -11,7 +9,7 @@ using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
 
-namespace eMarketer.NLog.Targets.ElasticSearch
+namespace eMarketer.NLog.Targets.ElasticSearch_New
 {
     [Target("ElasticSearch")]
     public sealed class ElasticSearchTarget : Target
@@ -61,7 +59,7 @@ namespace eMarketer.NLog.Targets.ElasticSearch
                 var url = new Uri(_url + _indexTemplate.Render(info.LogEvent));
                 var layout = this.Layout.Render(info.LogEvent);
                 var json = JObject.Parse(layout); // make sure the json is valid
-                
+
                 if (info.LogEvent.Exception != null)
                 {
                     var nfo = JObject.FromObject(info.LogEvent.Exception);
@@ -130,5 +128,5 @@ namespace eMarketer.NLog.Targets.ElasticSearch
 
             return true;
         }
-    } 
+    }
 }
