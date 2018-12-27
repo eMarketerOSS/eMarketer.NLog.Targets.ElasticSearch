@@ -11,6 +11,9 @@
     <Authors>eMarketer,rhoffman</Authors>
     <Company>eMarketer</Company>
     <Product>eMarketer.NLog.Targets.ElasticSearch</Product>
+    <PackageLicenseUrl>https://github.com/eMarketerOSS/eMarketer.NLog.Targets.ElasticSearch/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/eMarketerOSS/eMarketer.NLog.Targets.ElasticSearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eMarketerOSS/eMarketer.NLog.Targets.ElasticSearch</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
