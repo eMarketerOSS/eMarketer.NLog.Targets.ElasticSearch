@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMarketer.NLog.Targets.ElasticSearch", "eMarketer.NLog.Targets.ElasticSearch\eMarketer.NLog.Targets.ElasticSearch.csproj", "{1F7A5FED-1232-4B78-B844-0AC63252F481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMarketer.NLog.Targets.ElasticSearch", "eMarketer.NLog.Targets.ElasticSearch\eMarketer.NLog.Targets.ElasticSearch.csproj", "{4A79C23F-AA28-4127-A5CD-985F0A035F33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F7A5FED-1232-4B78-B844-0AC63252F481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F7A5FED-1232-4B78-B844-0AC63252F481}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F7A5FED-1232-4B78-B844-0AC63252F481}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F7A5FED-1232-4B78-B844-0AC63252F481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A79C23F-AA28-4127-A5CD-985F0A035F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A79C23F-AA28-4127-A5CD-985F0A035F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A79C23F-AA28-4127-A5CD-985F0A035F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A79C23F-AA28-4127-A5CD-985F0A035F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A3B4B74-5175-42E5-9781-6A295069423D}
 	EndGlobalSection
 EndGlobal
